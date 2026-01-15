@@ -5,7 +5,7 @@ version: 1.0.0
 repository: https://github.com/yourusername/clean_architecture_brick
 
 environment:
-  mason: ">=0.1.0-dev.51 <0.1.0"
+  mason: ">=0.1.0-dev <1.0.0"
 
 vars:
   project_name:
