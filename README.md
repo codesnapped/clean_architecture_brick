@@ -20,13 +20,13 @@ A Mason brick for generating a complete Flutter project with Clean Architecture 
 ### Global Installation
 
 ```bash
-mason add -g clean_architecture_layer --git-url https://github.com/yourusername/clean_architecture_brick
+mason add -g clean_architecture_layer --git-url https://github.com/codesnapped/clean_architecture_brick.git
 ```
 
 ### Project Installation
 
 ```bash
-mason add clean_architecture_layer --git-url https://github.com/yourusername/clean_architecture_brick
+mason add clean_architecture_layer --git-url https://github.com/codesnapped/clean_architecture_brick.git
 ```
 
 ## Usage
