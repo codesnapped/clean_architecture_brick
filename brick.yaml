@@ -1,0 +1,38 @@
+name: clean_architecture_layer
+description: Generate a layer-based Clean Architecture structure with Firebase, multiple environments, Very Good Analysis, Dio, Retrofit, GetIt/Injectable, BLoC, Freezed, and AutoRoute
+version: 1.0.0
+
+repository: https://github.com/yourusername/clean_architecture_brick
+
+environment:
+  mason: ">=0.1.0-dev.51 <0.1.0"
+
+vars:
+  project_name:
+    type: string
+    description: The name of the project
+    prompt: What is the project name?
+  
+  base_url_dev:
+    type: string
+    description: The base API URL for development
+    default: https://dev-api.example.com
+    prompt: What is the development API URL?
+  
+  base_url_prod:
+    type: string
+    description: The base API URL for production
+    default: https://api.example.com
+    prompt: What is the production API URL?
+  
+  include_stage:
+    type: boolean
+    description: Include staging environment
+    default: true
+    prompt: Include staging environment?
+  
+  base_url_stage:
+    type: string
+    description: The base API URL for staging
+    default: https://stage-api.example.com
+    prompt: What is the staging API URL?
